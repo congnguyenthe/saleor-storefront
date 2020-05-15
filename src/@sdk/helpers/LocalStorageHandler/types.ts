@@ -126,10 +126,3 @@ export interface IOrderModel {
 }
 
 export type IJobsModel = Record<string, Record<string, boolean>>;
-
-export interface ILocalStorageHandler {
-  getCheckout(): ICheckoutModel | null;
-  setCheckout(checkout: ICheckoutModel | null): void;
-  getPayment(): IPaymentModel | null;
-  setPayment(payment: IPaymentModel | null): void;
-}
