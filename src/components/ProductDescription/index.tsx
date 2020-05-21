@@ -8,10 +8,10 @@ import {
   ProductDetails_product_pricing,
   ProductDetails_product_variants,
   ProductDetails_product_variants_pricing,
-} from "@sdk/queries/gqlTypes/ProductDetails";
+} from "@saleor/sdk/queries/gqlTypes/ProductDetails";
 import { IProductVariantsAttributesSelectedValues, ITaxedMoney } from "@types";
 
-import { ICheckoutModelLine } from "@sdk/repository";
+import { ICheckoutModelLine } from "@saleor/sdk/repository";
 import { TaxedMoney } from "../../@next/components/containers";
 import AddToCart from "./AddToCart";
 import { QuantityTextField } from "./QuantityTextField";
