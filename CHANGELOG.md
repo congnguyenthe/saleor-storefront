@@ -38,6 +38,7 @@ All notable, unreleased changes to this project will be documented in this file.
 - Fix unhandled JWT token expiration - #696 by @orzechdev
 - Regenerate types - #712 by @dominik-zeglen
 - Automatically choose variant attributes from url in ProductVariantPicker - #708 by @AlicjaSzu
+- Use sdk as a standalone package - #724 by @dominik-zeglen
 
 ## 0.7.0
 
