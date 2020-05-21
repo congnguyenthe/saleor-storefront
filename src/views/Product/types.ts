@@ -1,4 +1,4 @@
-import { ICheckoutModelLine } from "@sdk/repository";
+import { ICheckoutModelLine } from "@saleor/sdk/repository";
 import { ProductDetails_product } from "./gqlTypes/ProductDetails";
 
 export interface IProps {
